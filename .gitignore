@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Build / compile logs
+*.log
+pass1.log
+pass2.log
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.bbl
+paper/*.blg
+
+# Transient runtime artifacts
+pipe.log
+pipe.err
+*.err
+
+# Windows / local scratch
+*.ps1
+
+# Kaggle staging (provisional tooling, not part of the paper artifact)
+kaggle_input/
+
+# Resumable partial checkpoints (regenerated; final artifacts are committed)
+data/control_data_partial.npz
